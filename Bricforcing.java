@@ -141,7 +141,7 @@ public class Bricforcing implements Hacking{
 										}else break;
 										for (int s=0;s<n ;s++ ) {
 											if (taille>=9) {
-												mdp[8]=word[k];
+												mdp[8]=word[s];
 												answer=compte.Test(String.valueOf(mdp),compte);
 												if (answer==true) {
 													System.out.print("Mot de passe trouve en : ");
